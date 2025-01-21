@@ -711,4 +711,4 @@ rsource "Kconfig.defaults"
 
 source "Kconfig.zephyr"
 
-rsource "src/behaviors/behavior-led-layer/Kconfig"
+
