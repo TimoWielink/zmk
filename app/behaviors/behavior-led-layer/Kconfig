@@ -1,0 +1,6 @@
+config ZMK_BEHAVIOR_LED_LAYER
+    bool "Layer LED indicator behavior"
+    default y
+    depends on DT_HAS_ZMK_BEHAVIOR_LED_LAYER_ENABLED
+    help
+        Enables GPIO-based LED indicators for active layers 

@@ -1,0 +1,5 @@
+description: Layer LED indicator behavior
+
+compatible: "zmk,behavior-led-layer"
+
+include: base.yaml 
