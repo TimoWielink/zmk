@@ -710,3 +710,5 @@ osource "$(ZMK_CONFIG)/boards/shields/*/Kconfig.shield"
 rsource "Kconfig.defaults"
 
 source "Kconfig.zephyr"
+
+rsource "src/behaviors/behavior-led-layer/Kconfig"

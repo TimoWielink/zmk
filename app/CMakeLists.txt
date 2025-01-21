@@ -131,4 +131,6 @@ if (CONFIG_ZMK_STUDIO_RPC)
   add_subdirectory(src/studio)
 endif()
 
+target_sources_ifdef(CONFIG_ZMK_BEHAVIOR_LED_LAYER app PRIVATE src/behaviors/behavior-led-layer/behavior_led_layer.c)
+
 zephyr_cc_option(-Wfatal-errors)
